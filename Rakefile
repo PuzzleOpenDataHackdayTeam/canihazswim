@@ -5,6 +5,6 @@ end
 task :daemon do
   while true
     sh "cd #{pwd}/xml && wget http://www.hydrodaten.admin.ch/lhg/SMS.xml"
-    sleep 30 * 60
+    sleep 20 * 60
   end
 end
