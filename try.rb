@@ -16,8 +16,11 @@ class App < Thor
 end
 
 
-file = 'data/T-Bulletin.html'
-doc = Nokogiri::HTML(open(file))
+file = 'xml/SMS.xml'
+data = IO.readlines(file)
+puts  data
+exit
+doc = Nokogiri::XML(data)
 header =  doc.xpath '//table//tr[position()=1]'
 column_keys = header.xpath('td').map {|td| td.text()}
 ap column_keys
