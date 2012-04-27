@@ -1,0 +1,1030 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+	<style type="text/css" >
+		h1 { padding-left: 1ex; }
+	    tr.stationsListeHeader td { background-color: rgb(204, 204, 204); font-weight: bold; font-family: Arial,Helvetica,sans-serif; padding-left: 0.5ex;}
+	    tr.stationsListeBody   td { background-color: #eeeeee;  
+	                                font-family: Arial,Helvetica,sans-serif;
+	                                white-space: nowrap; 
+	                                 font-size: 10pt;
+	                              	font-stretch: condensed;
+	                              	padding-left: 0.5ex;
+
+	                               }
+	    tr.stationsListeBody   td.cs { text-align: center; 
+	                                   white-space: nowrap; 
+	                                   padding-left: 1ex;
+	                                   padding-right: 0.5ex;
+	                                   font-size: 10pt;}
+	    tr.stationsListeBody   td.rb { text-align: right; 
+	                                   font-weight: bold;
+	                                   padding-right: 0.3ex;
+	                                   white-space: nowrap; }
+	    tr.stationsListeBody   td.rn { text-align: right; 
+	                                   padding-right: 0.3ex;
+	                                   white-space: nowrap; }
+	    tr.stationsListeBody   td.cn { text-align: center; 
+	                                   padding-left: 0.5ex;
+	                                   padding-right: 0.5ex;
+	                                   white-space: nowrap; }
+	    tr.stationsListeBody   td.cn a {  font-stretch: condensed; 
+	                                   }
+	    tr.stationsListeBody   td sup  { font-size: smaller; }
+	    tr.stationsListeBody2   td { background-color: rgb(204, 204, 204);  
+	                                font-family: Arial,Helvetica,sans-serif;
+	                                white-space: nowrap; 
+	                                font-stretch: condensed; 
+	                                font-size: 10pt;
+	                                padding-left: 0.5ex;
+
+	                               }
+	    tr.stationsListeBody2   td.cs { text-align: center; 
+	                                   white-space: nowrap; 
+	                                   padding-left: 1ex;
+	                                   padding-right: 0.5ex;
+	                                   font-size: 10pt;
+	                                   }
+	    tr.stationsListeBody2   td.rb { text-align: right; 
+	                                   font-weight: bold;
+	                                   padding-right: 0.3ex;
+	                                   white-space: nowrap; }
+	    tr.stationsListeBody2   td.rn { text-align: right; 
+	                                   padding-right: 0.3ex;
+	                                   white-space: nowrap; }
+	    tr.stationsListeBody2   td.cn { text-align: center; 
+	                                   padding-left: 0.5ex;
+	                                   padding-right: 0.5ex;
+	                                   white-space: nowrap; }
+	    tr.stationsListeBody2   td.cn a {  font-stretch: condensed; 
+	                                   }
+	    tr.stationsListeBody2   td sup  { font-size: smaller; }
+	</style>
+
+	<meta name="GENERATOR" content="IMPERIA 8.0.9" />
+  
+	<title> BAFU - Hydrologische Grundlagen und Daten - Tabellen der aktuellen Messwerte</title>
+
+	<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="content-language" content="de" />
+	<meta name="audience" content="all" />
+	<meta name="revisit-after" content="7 days" />
+	<meta name="robots" content=" index,follow " />
+	<meta name="DC.publisher" content="Bundesamt für Umwelt BAFU"/>
+	<meta name="DC.date.modified" content="--" />
+	<meta name="DC.type.site.setA" content="hydrologie" />
+	<meta name="DC.type.site.setB" content="c0" />
+	<meta name="DC.type.site.setC" content="t0" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="Wasserstände, Abflüsse und Temperaturen der Schweizer Flüsse und Seen sowie des Grundwassers: Aktuelle Daten und Prognosen. Auch per SMS abrufbar." />
+	<meta name="abstract" content="Hier kommt Hydroweb" />
+	<meta http-equiv="content-Script-Type" content="text/javascript" />
+	<meta http-equiv="content-Style-Type" content="text/css" />
+
+	<link rel="alternate" type="application/rss+xml" title="Alle Nachrichten" href="http://www.news.admin.ch/dienstleistungen/00008/00131/00151/index.html?lang=de&amp;rss-id=0_46" />
+	<link rel="alternate" type="application/rss+xml" title="Medienmitteilungen" href="http://www.news.admin.ch/dienstleistungen/00008/00131/00151/index.html?lang=de&amp;rss-id=0_45" />
+	<link rel="alternate" type="application/rss+xml" title="Publikationen" href="http://www.news.admin.ch/dienstleistungen/00008/00131/00151/index.html?lang=de&amp;rss-id=0_47" />
+	<link rel="alternate" type="application/rss+xml" title="Umweltrecht" href="http://www.news.admin.ch/dienstleistungen/00008/00131/00151/index.html?lang=de&amp;rss-id=0_48" />
+	
+	<!--liam_start:aW5mb0BiYWZ1LmFkbWluLmNo:liam_end-->
+
+	<link rel="stylesheet" type="text/css" href="bulletinhydropy.css" />
+	<!--
+	<link rel="stylesheet" type="text/css" href="/styles/css_cache.css?version=1267186945&amp;mode=.AMT" />
+	<link rel="stylesheet" type="text/css" href="/styles/standard/print_styles.css" media="print"/>
+
+	<script type="text/javascript" src="/javascripts/js_cache.php?version=1267186945"></script>
+	-->
+	<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body class="webBody">
+
+<div id="webBodyDiv" >
+
+
+  <div id="webHeaderDiv">
+    
+    <!--UdmComment-->
+
+<div class="webBlindThis">Accesskeys:<br />
+	<ul>
+		<li><a href="/index.html?lang=de" accesskey="0">Zur Startseite</a></li>
+		<li><a href="#webNavigationDiv" accesskey="1">Zur Navigation</a></li>
+		<li><a href="#contentStart" accesskey="2">Zum Inhalt</a></li>
+		<li><a href="/kontakt/index.html?lang=de" accesskey="3">Zum Kontakt</a></li>
+		<li><a href="/sitemap/index.html?lang=de" accesskey="4">Zur Übersicht</a></li>
+		<li><a href="/suchen/index.html?lang=de" accesskey="5">Zur Suche</a></li>
+		<li><a href="/hinweise/index.html?lang=de" accesskey="6">Zur Hilfe</a></li>
+	</ul>
+</div>
+
+<div id="webLogoDiv">
+	<h1>Bundesamt für Umwelt BAFU</h1>
+</div>
+
+<div id="printLogo">
+	<img src="/images/logo_suisse.jpg" alt="Logo der Bundesbehörden der Schweizerischen Eidgenossenschaft" />
+	<h2>Bundesamt für Umwelt BAFU</h2><hr class="webHrBlau" /> 
+</div>
+
+<div class="webTextOnlyComment">
+	<p>Diese Ausgabe ist für Browser ohne zureichende CSS-Unterstützung gedacht und richtet sich vor allem an Sehbehinderte. Alle Inhalte sind auch mit älteren Browsern voll nutzbar. Für eine grafisch ansprechendere Ansicht verwenden Sie bitte einen aktuelleren Browser, wie Firefox 3 oder Internet Explorer 7</p>
+</div>
+
+<div id="webHeaderLinks">
+	<div id="adminch">
+		<a href="http://www.admin.ch/index.html?lang=de" target="_blank" title="Bundesverwaltung admin.ch">Bundesverwaltung admin.ch <span class="hiddenText">neues_fenster_hidden</span></a>
+	</div>
+	<div id="depart">
+		<a href="http://www.uvek.admin.ch/index.html?lang=de" target="_blank" title="Departement für Umwelt, Verkehr, Energie und Kommunikation">Departement für Umwelt, Verkehr, Energie und Kommunikation <span class="hiddenText">neues_fenster_hidden</span></a>
+	</div>
+		<a href="/index.html?lang=de" title="Bundesamt für Umwelt BAFU ">Bundesamt für Umwelt BAFU <span class="hiddenText">neues_fenster_hidden</span></a>
+	</div><!--/UdmComment-->
+</div>
+
+  
+<div id="webServiceNavigationDiv">
+	<!--UdmComment-->
+	<div id="webServiceContentDiv">
+		<ul>
+			<li><a href="/index.html?lang=de" title="Zur Startseite" class="webServiceContent">Startseite</a></li>
+			<li><a href="/sitemap/index.html?lang=de" title="Zur Übersicht" class="webServiceContent">Übersicht</a></li>
+			<li><a href="/kontakt/index.html?lang=de" title="Zum Kontaktformular" class="webServiceContent">Kontakt</a></li>
+		</ul>
+	</div>
+	<br class="clearBoth" />
+	<br class="clearBoth" />
+	<!--/UdmComment-->
+</div>
+
+
+<!--UdmComment-->
+<div id="webGlobalNavigationDiv">
+	<div id="webGlobalContentDiv">
+		<ul>
+			<li><a href="/themen/index.html?lang=de" class="webGlobalContentAktiv webGlobalContentFirst"  title="Themen">Themen</a></li>
+			<li><a href="/umwelt/index.html?lang=de" class="webGlobalContent"  title="Umweltzustand">Umweltzustand</a></li>
+			<li><a href="/dienstleistungen/index.html?lang=de" class="webGlobalContent"  title="Dienstleistungen">Dienstleistungen</a></li>
+			<li><a href="/dokumentation/index.html?lang=de" class="webGlobalContent"  title="Dokumentation">Dokumentation</a></li>
+			<li><a href="/org/index.html?lang=de" class="webGlobalContent"  title="Das BAFU">Das BAFU</a></li>
+		</ul>
+	</div>
+</div>
+<!--/UdmComment-->
+
+<p></p><h1  class="webTitle" id="contentStart">Wassertemperatur - 27.04.2012 08:20</h1>
+<p>&nbsp;&nbsp;&lt;&nbsp;<a href="http://www.bafu.admin.ch/hydrologie/01832/01848/index.html?lang=de">zurück/retour/indietro/back</a></p>
+<p align="right">provisorische Daten, Zeiten in Sommer-/Winterzeit!&nbsp;&nbsp;</p>
+
+<table id="mainStationList" class="stationsListe" cellpadding="0" cellspacing="3" border="0" width="100%">
+	<tr class="stationsListeHeader">
+		<td align="left"><br />Station<p /></td>
+		<td align="center">Einheit</td>
+		<td align="center">Datum/Zeit</td>
+		<td align="center">Aktuell</td>
+		<td align="center">24h vorher</td>
+		<td align="center">Differenz</td>
+		<td align="center">Mittel 24h</td>
+		<td align="center">Max. in 24h</td>
+		<td align="center">Min. in 24h<br /></td>
+	</tr>
+
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2135.html">Aare - Bern</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>9.03</td>
+		<td align="center" class='rn'>7.47</td>
+		<td align="center" class='rn'>1.560</td>
+		<td align="center" class='rn'>9.54</td>
+		<td align="center" class='rn'>10.96</td>
+		<td align="center" class='rn'>7.48</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2019.html">Aare - Brienzwiler</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>5.26</td>
+		<td align="center" class='rn'>4.98</td>
+		<td align="center" class='rn'>0.280</td>
+		<td align="center" class='rn'>6.27</td>
+		<td align="center" class='rn'>8.30</td>
+		<td align="center" class='rn'>4.82</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2016.html">Aare - Brugg</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>10.45</td>
+		<td align="center" class='rn'>9.53</td>
+		<td align="center" class='rn'>0.920</td>
+		<td align="center" class='rn'>10.61</td>
+		<td align="center" class='rn'>11.24</td>
+		<td align="center" class='rn'>9.50</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2029.html">Aare - Brügg</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>9.37</td>
+		<td align="center" class='rn'>8.73</td>
+		<td align="center" class='rn'>0.640</td>
+		<td align="center" class='rn'>9.09</td>
+		<td align="center" class='rn'>9.40</td>
+		<td align="center" class='rn'>8.66</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2113.html">Aare - Felsenau,  KW Klingnau</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:00</b></td>
+		<td align="center" class='rb'>11.55</td>
+		<td align="center" class='rn'>10.58</td>
+		<td align="center" class='rn'>0.970</td>
+		<td align="center" class='rn'>11.46</td>
+		<td align="center" class='rn'>12.04</td>
+		<td align="center" class='rn'>10.52</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2085.html">Aare - Hagneck</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>9.96</td>
+		<td align="center" class='rn'>9.70</td>
+		<td align="center" class='rn'>0.260</td>
+		<td align="center" class='rn'>10.54</td>
+		<td align="center" class='rn'>11.14</td>
+		<td align="center" class='rn'>9.66</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2457.html">Aare - Ringgenberg</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>8.52</td>
+		<td align="center" class='rn'>7.90</td>
+		<td align="center" class='rn'>0.620</td>
+		<td align="center" class='rn'>8.66</td>
+		<td align="center" class='rn'>9.34</td>
+		<td align="center" class='rn'>7.91</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2030.html">Aare - Thun</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>9.35</td>
+		<td align="center" class='rn'>7.45</td>
+		<td align="center" class='rn'>1.900</td>
+		<td align="center" class='rn'>8.86</td>
+		<td align="center" class='rn'>9.45</td>
+		<td align="center" class='rn'>7.45</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2485.html">Allaine - Boncourt</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>9.64</td>
+		<td align="center" class='rn'>9.61</td>
+		<td align="center" class='rn'>0.030</td>
+		<td align="center" class='rn'>10.86</td>
+		<td align="center" class='rn'>11.97</td>
+		<td align="center" class='rn'>9.62</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2232.html">Allenbach - Adelboden</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>3.49</td>
+		<td align="center" class='rn'>3.96</td>
+		<td align="center" class='rn'>-0.470</td>
+		<td align="center" class='rn'>4.72</td>
+		<td align="center" class='rn'>7.62</td>
+		<td align="center" class='rn'>3.41</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2609.html">Alp - Einsiedeln</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>4.17</td>
+		<td align="center" class='rn'>4.90</td>
+		<td align="center" class='rn'>-0.730</td>
+		<td align="center" class='rn'>7.59</td>
+		<td align="center" class='rn'>13.14</td>
+		<td align="center" class='rn'>4.14</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2170.html">Arve - Genève</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>8.93</td>
+		<td align="center" class='rn'>8.08</td>
+		<td align="center" class='rn'>0.850</td>
+		<td align="center" class='rn'>9.57</td>
+		<td align="center" class='rn'>11.08</td>
+		<td align="center" class='rn'>8.00</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2433.html">Aubonne - Allaman</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>7.25</td>
+		<td align="center" class='rn'>7.55</td>
+		<td align="center" class='rn'>-0.300</td>
+		<td align="center" class='rn'>7.84</td>
+		<td align="center" class='rn'>8.47</td>
+		<td align="center" class='rn'>7.25</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2604.html">Biber - Biberbrugg</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>7.68</td>
+		<td align="center" class='rn'>6.60</td>
+		<td align="center" class='rn'>1.080</td>
+		<td align="center" class='rn'>9.95</td>
+		<td align="center" class='rn'>12.74</td>
+		<td align="center" class='rn'>6.58</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2106.html">Birs - Münchenstein</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>11.12</td>
+		<td align="center" class='rn'>9.47</td>
+		<td align="center" class='rn'>1.650</td>
+		<td align="center" class='rn'>11.04</td>
+		<td align="center" class='rn'>11.66</td>
+		<td align="center" class='rn'>9.46</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2034.html">Broye - Payerne</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>9.40</td>
+		<td align="center" class='rn'>8.24</td>
+		<td align="center" class='rn'>1.160</td>
+		<td align="center" class='rn'>10.47</td>
+		<td align="center" class='rn'>11.99</td>
+		<td align="center" class='rn'>8.24</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2327.html">Dischmabach - Davos</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>26.04.2012&nbsp;<b>12:30</b></td>
+		<td align="center" class='rb'>6.78</td>
+		<td align="center" class='rn'>5.29</td>
+		<td align="center" class='rn'>1.490</td>
+		<td align="center" class='rn'>4.30</td>
+		<td align="center" class='rn'>6.96</td>
+		<td align="center" class='rn'>2.30</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2210.html">Doubs - Ocourt</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>8.70</td>
+		<td align="center" class='rn'>8.59</td>
+		<td align="center" class='rn'>0.110</td>
+		<td align="center" class='rn'>9.45</td>
+		<td align="center" class='rn'>10.30</td>
+		<td align="center" class='rn'>8.59</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2070.html">Emme - Emmenmatt</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>5.11</td>
+		<td align="center" class='rn'>5.64</td>
+		<td align="center" class='rn'>-0.530</td>
+		<td align="center" class='rn'>8.65</td>
+		<td align="center" class='rn'>12.39</td>
+		<td align="center" class='rn'>5.10</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2481.html">Engelberger Aa - Buochs</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>7.25</td>
+		<td align="center" class='rn'>6.92</td>
+		<td align="center" class='rn'>0.330</td>
+		<td align="center" class='rn'>8.73</td>
+		<td align="center" class='rn'>11.38</td>
+		<td align="center" class='rn'>4.80</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2415.html">Glatt - Rheinsfelden</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>11.54</td>
+		<td align="center" class='rn'>10.09</td>
+		<td align="center" class='rn'>1.450</td>
+		<td align="center" class='rn'>13.16</td>
+		<td align="center" class='rn'>15.50</td>
+		<td align="center" class='rn'>10.06</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2308.html">Goldach - Goldach</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>8.52</td>
+		<td align="center" class='rn'>7.68</td>
+		<td align="center" class='rn'>0.840</td>
+		<td align="center" class='rn'>10.85</td>
+		<td align="center" class='rn'>13.96</td>
+		<td align="center" class='rn'>7.69</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2375.html">Grossbach - Gross</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>3.94</td>
+		<td align="center" class='rn'>4.23</td>
+		<td align="center" class='rn'>-0.290</td>
+		<td align="center" class='rn'>6.16</td>
+		<td align="center" class='rn'>10.92</td>
+		<td align="center" class='rn'>3.84</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2276.html">Grosstalbach - Isenthal</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>6.43</td>
+		<td align="center" class='rn'>6.70</td>
+		<td align="center" class='rn'>-0.270</td>
+		<td align="center" class='rn'>7.53</td>
+		<td align="center" class='rn'>8.88</td>
+		<td align="center" class='rn'>6.43</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2159.html">Gürbe - Belp</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>7.26</td>
+		<td align="center" class='rn'>7.15</td>
+		<td align="center" class='rn'>0.110</td>
+		<td align="center" class='rn'>10.85</td>
+		<td align="center" class='rn'>14.73</td>
+		<td align="center" class='rn'>6.95</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2462.html">Inn - S-Chanf</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>3.69</td>
+		<td align="center" class='rn'>3.62</td>
+		<td align="center" class='rn'>0.070</td>
+		<td align="center" class='rn'>6.22</td>
+		<td align="center" class='rn'>9.58</td>
+		<td align="center" class='rn'>3.42</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2425.html">Kleine Emme - Littau</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>6.84</td>
+		<td align="center" class='rn'>6.92</td>
+		<td align="center" class='rn'>-0.080</td>
+		<td align="center" class='rn'>9.81</td>
+		<td align="center" class='rn'>12.29</td>
+		<td align="center" class='rn'>6.84</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2150.html">Landquart - Felsenbach</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>5.27</td>
+		<td align="center" class='rn'>5.25</td>
+		<td align="center" class='rn'>0.020</td>
+		<td align="center" class='rn'>7.34</td>
+		<td align="center" class='rn'>10.41</td>
+		<td align="center" class='rn'>5.26</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2343.html">Langeten - Huttwil</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>7.62</td>
+		<td align="center" class='rn'>6.82</td>
+		<td align="center" class='rn'>0.800</td>
+		<td align="center" class='rn'>9.78</td>
+		<td align="center" class='rn'>12.58</td>
+		<td align="center" class='rn'>6.81</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2410.html">Liechtenst. B'kanal - Ruggell</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>9.07</td>
+		<td align="center" class='rn'>8.29</td>
+		<td align="center" class='rn'>0.780</td>
+		<td align="center" class='rn'>10.72</td>
+		<td align="center" class='rn'>12.73</td>
+		<td align="center" class='rn'>8.31</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2243.html">Limmat - Baden</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>10.32</td>
+		<td align="center" class='rn'>9.68</td>
+		<td align="center" class='rn'>0.640</td>
+		<td align="center" class='rn'>9.98</td>
+		<td align="center" class='rn'>10.32</td>
+		<td align="center" class='rn'>9.69</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2372.html">Linth - Mollis</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>6.68</td>
+		<td align="center" class='rn'>7.11</td>
+		<td align="center" class='rn'>-0.430</td>
+		<td align="center" class='rn'>8.84</td>
+		<td align="center" class='rn'>11.47</td>
+		<td align="center" class='rn'>6.68</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2104.html">Linth - Weesen</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>8.38</td>
+		<td align="center" class='rn'>8.08</td>
+		<td align="center" class='rn'>0.300</td>
+		<td align="center" class='rn'>8.65</td>
+		<td align="center" class='rn'>9.17</td>
+		<td align="center" class='rn'>8.08</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2269.html">Lonza - Blatten</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>3.54</td>
+		<td align="center" class='rn'>3.35</td>
+		<td align="center" class='rn'>0.190</td>
+		<td align="center" class='rn'>5.23</td>
+		<td align="center" class='rn'>8.23</td>
+		<td align="center" class='rn'>3.35</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2109.html">Lütschine - Gsteig</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>5.56</td>
+		<td align="center" class='rn'>5.61</td>
+		<td align="center" class='rn'>-0.050</td>
+		<td align="center" class='rn'>8.14</td>
+		<td align="center" class='rn'>12.24</td>
+		<td align="center" class='rn'>5.56</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2161.html">Massa - Blatten bei Naters</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>1.27</td>
+		<td align="center" class='rn'>1.41</td>
+		<td align="center" class='rn'>-0.140</td>
+		<td align="center" class='rn'>2.30</td>
+		<td align="center" class='rn'>4.65</td>
+		<td align="center" class='rn'>1.27</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2369.html">Mentue - Yvonand</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>8.15</td>
+		<td align="center" class='rn'>7.69</td>
+		<td align="center" class='rn'>0.460</td>
+		<td align="center" class='rn'>9.77</td>
+		<td align="center" class='rn'>11.50</td>
+		<td align="center" class='rn'>7.67</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2084.html">Muota - Ingenbohl</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>6.33</td>
+		<td align="center" class='rn'>8.28</td>
+		<td align="center" class='rn'>-1.950</td>
+		<td align="center" class='rn'>8.20</td>
+		<td align="center" class='rn'>12.07</td>
+		<td align="center" class='rn'>6.19</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2386.html">Murg - Frauenfeld</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>10.48</td>
+		<td align="center" class='rn'>8.75</td>
+		<td align="center" class='rn'>1.730</td>
+		<td align="center" class='rn'>12.00</td>
+		<td align="center" class='rn'>14.07</td>
+		<td align="center" class='rn'>8.65</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2126.html">Murg - Wängi</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>9.60</td>
+		<td align="center" class='rn'>8.28</td>
+		<td align="center" class='rn'>1.320</td>
+		<td align="center" class='rn'>10.89</td>
+		<td align="center" class='rn'>13.21</td>
+		<td align="center" class='rn'>8.24</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2612.html">Pincascia - Lavertezzo</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>6.30</td>
+		<td align="center" class='rn'>5.51</td>
+		<td align="center" class='rn'>0.790</td>
+		<td align="center" class='rn'>6.14</td>
+		<td align="center" class='rn'>6.53</td>
+		<td align="center" class='rn'>5.49</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2366.html">Poschiavino - La Rösa</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>1.77</td>
+		<td align="center" class='rn'>2.44</td>
+		<td align="center" class='rn'>-0.670</td>
+		<td align="center" class='rn'>3.72</td>
+		<td align="center" class='rn'>7.60</td>
+		<td align="center" class='rn'>1.75</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2493.html">Promenthouse - Gland</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:35</b></td>
+		<td align="center" class='rb'>7.80</td>
+		<td align="center" class='rn'>8.16</td>
+		<td align="center" class='rn'>-0.360</td>
+		<td align="center" class='rn'>8.82</td>
+		<td align="center" class='rn'>9.95</td>
+		<td align="center" class='rn'>7.80</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2152.html">Reuss - Luzern</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>9.35</td>
+		<td align="center" class='rn'>8.65</td>
+		<td align="center" class='rn'>0.700</td>
+		<td align="center" class='rn'>9.18</td>
+		<td align="center" class='rn'>9.55</td>
+		<td align="center" class='rn'>8.65</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2018.html">Reuss - Mellingen</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>10.54</td>
+		<td align="center" class='rn'>9.45</td>
+		<td align="center" class='rn'>1.090</td>
+		<td align="center" class='rn'>10.54</td>
+		<td align="center" class='rn'>11.34</td>
+		<td align="center" class='rn'>9.38</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2056.html">Reuss - Seedorf</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>6.94</td>
+		<td align="center" class='rn'>6.50</td>
+		<td align="center" class='rn'>0.440</td>
+		<td align="center" class='rn'>8.00</td>
+		<td align="center" class='rn'>11.24</td>
+		<td align="center" class='rn'>6.56</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2473.html">Rhein - Diepoldsau</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>8.38</td>
+		<td align="center" class='rn'>7.67</td>
+		<td align="center" class='rn'>0.710</td>
+		<td align="center" class='rn'>9.44</td>
+		<td align="center" class='rn'>10.83</td>
+		<td align="center" class='rn'>7.72</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2130.html">Rhein - Laufenburg,  (Oberw)</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:00</b></td>
+		<td align="center" class='rb'>10.68</td>
+		<td align="center" class='rn'>9.72</td>
+		<td align="center" class='rn'>0.960</td>
+		<td align="center" class='rn'>10.50</td>
+		<td align="center" class='rn'>11.11</td>
+		<td align="center" class='rn'>9.67</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2288.html">Rhein - Neuhausen</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>9.08</td>
+		<td align="center" class='rn'>8.15</td>
+		<td align="center" class='rn'>0.930</td>
+		<td align="center" class='rn'>9.47</td>
+		<td align="center" class='rn'>10.36</td>
+		<td align="center" class='rn'>8.16</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2143.html">Rhein - Rekingen</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>10.00</td>
+		<td align="center" class='rn'>8.56</td>
+		<td align="center" class='rn'>1.440</td>
+		<td align="center" class='rn'>9.55</td>
+		<td align="center" class='rn'>10.00</td>
+		<td align="center" class='rn'>8.56</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2392.html">Rhein - Rheinau</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>9.53</td>
+		<td align="center" class='rn'>8.58</td>
+		<td align="center" class='rn'>0.950</td>
+		<td align="center" class='rn'>9.40</td>
+		<td align="center" class='rn'>10.25</td>
+		<td align="center" class='rn'>8.34</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2091.html">Rhein - Rheinfelden</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>10.73</td>
+		<td align="center" class='rn'>10.00</td>
+		<td align="center" class='rn'>0.730</td>
+		<td align="center" class='rn'>10.36</td>
+		<td align="center" class='rn'>10.73</td>
+		<td align="center" class='rn'>9.99</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2613.html">Rhein - Weil</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>10.46</td>
+		<td align="center" class='rn'>9.96</td>
+		<td align="center" class='rn'>0.500</td>
+		<td align="center" class='rn'>10.57</td>
+		<td align="center" class='rn'>10.93</td>
+		<td align="center" class='rn'>9.98</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2011.html">Rhone - Sion</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>8.61</td>
+		<td align="center" class='rn'>8.13</td>
+		<td align="center" class='rn'>0.480</td>
+		<td align="center" class='rn'>8.50</td>
+		<td align="center" class='rn'>8.91</td>
+		<td align="center" class='rn'>8.08</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2174.html">Rhône - Chancy, Aux Ripes</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>7.83</td>
+		<td align="center" class='rn'>7.83</td>
+		<td align="center" class='rn'>0.000</td>
+		<td align="center" class='rn'>8.09</td>
+		<td align="center" class='rn'>8.85</td>
+		<td align="center" class='rn'>7.72</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2009.html">Rhône - Porte du Scex</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>8.75</td>
+		<td align="center" class='rn'>7.57</td>
+		<td align="center" class='rn'>1.180</td>
+		<td align="center" class='rn'>8.83</td>
+		<td align="center" class='rn'>9.31</td>
+		<td align="center" class='rn'>7.60</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2356.html">Riale di Calneggia - Cavergno</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>26.04.2012&nbsp;<b>12:20</b></td>
+		<td align="center" class='rb'>7.52</td>
+		<td align="center" class='rn'>7.67</td>
+		<td align="center" class='rn'>-0.150</td>
+		<td align="center" class='rn'>7.48</td>
+		<td align="center" class='rn'>7.68</td>
+		<td align="center" class='rn'>7.41</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2347.html">Riale di Roggiasca - Roveredo</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>3.85</td>
+		<td align="center" class='rn'>3.44</td>
+		<td align="center" class='rn'>0.410</td>
+		<td align="center" class='rn'>4.31</td>
+		<td align="center" class='rn'>5.13</td>
+		<td align="center" class='rn'>3.46</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2414.html">Rietholzbach - Mosnang</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:35</b></td>
+		<td align="center" class='rb'>6.88</td>
+		<td align="center" class='rn'>6.54</td>
+		<td align="center" class='rn'>0.340</td>
+		<td align="center" class='rn'>9.29</td>
+		<td align="center" class='rn'>11.84</td>
+		<td align="center" class='rn'>6.53</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2617.html">Rom - Müstair</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>3.81</td>
+		<td align="center" class='rn'>4.33</td>
+		<td align="center" class='rn'>-0.520</td>
+		<td align="center" class='rn'>6.49</td>
+		<td align="center" class='rn'>9.77</td>
+		<td align="center" class='rn'>3.81</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2256.html">Rosegbach - Pontresina</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>1.57</td>
+		<td align="center" class='rn'>1.68</td>
+		<td align="center" class='rn'>-0.110</td>
+		<td align="center" class='rn'>4.81</td>
+		<td align="center" class='rn'>9.05</td>
+		<td align="center" class='rn'>1.57</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2608.html">Sellenbodenbach - Neuenkirch</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:40</b></td>
+		<td align="center" class='rb'>7.57</td>
+		<td align="center" class='rn'>6.33</td>
+		<td align="center" class='rn'>1.240</td>
+		<td align="center" class='rn'>10.36</td>
+		<td align="center" class='rn'>14.44</td>
+		<td align="center" class='rn'>6.31</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/547.html">Sihl - Blattwag</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>8.03</td>
+		<td align="center" class='rn'>7.58</td>
+		<td align="center" class='rn'>0.450</td>
+		<td align="center" class='rn'>8.71</td>
+		<td align="center" class='rn'>10.61</td>
+		<td align="center" class='rn'>7.21</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2176.html">Sihl - Zürich</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>10.94</td>
+		<td align="center" class='rn'>8.80</td>
+		<td align="center" class='rn'>2.140</td>
+		<td align="center" class='rn'>12.69</td>
+		<td align="center" class='rn'>15.37</td>
+		<td align="center" class='rn'>8.62</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2112.html">Sitter - Appenzell</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>5.56</td>
+		<td align="center" class='rn'>5.62</td>
+		<td align="center" class='rn'>-0.060</td>
+		<td align="center" class='rn'>7.36</td>
+		<td align="center" class='rn'>10.57</td>
+		<td align="center" class='rn'>5.44</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2282.html">Sperbelgraben - Wasen</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>6.10</td>
+		<td align="center" class='rn'>4.75</td>
+		<td align="center" class='rn'>1.350</td>
+		<td align="center" class='rn'>7.05</td>
+		<td align="center" class='rn'>10.24</td>
+		<td align="center" class='rn'>4.75</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2307.html">Suze - Sonceboz</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>7.28</td>
+		<td align="center" class='rn'>7.68</td>
+		<td align="center" class='rn'>-0.400</td>
+		<td align="center" class='rn'>8.48</td>
+		<td align="center" class='rn'>9.92</td>
+		<td align="center" class='rn'>7.28</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2044.html">Thur - Andelfingen</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>11.24</td>
+		<td align="center" class='rn'>9.18</td>
+		<td align="center" class='rn'>2.060</td>
+		<td align="center" class='rn'>11.86</td>
+		<td align="center" class='rn'>13.89</td>
+		<td align="center" class='rn'>9.21</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2068.html">Ticino - Riazzino</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>8.26</td>
+		<td align="center" class='rn'>7.91</td>
+		<td align="center" class='rn'>0.350</td>
+		<td align="center" class='rn'>8.90</td>
+		<td align="center" class='rn'>10.11</td>
+		<td align="center" class='rn'>7.88</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2167.html">Tresa - Ponte Tresa</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>10.77</td>
+		<td align="center" class='rn'>10.39</td>
+		<td align="center" class='rn'>0.380</td>
+		<td align="center" class='rn'>10.75</td>
+		<td align="center" class='rn'>11.06</td>
+		<td align="center" class='rn'>10.39</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/520.html">Töss - Rämismühle</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>07:30</b></td>
+		<td align="center" class='rb'>8.52</td>
+		<td align="center" class='rn'>7.08</td>
+		<td align="center" class='rn'>1.440</td>
+		<td align="center" class='rn'>10.76</td>
+		<td align="center" class='rn'>13.68</td>
+		<td align="center" class='rn'>7.04</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2432.html">Venoge - Ecublens</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>8.89</td>
+		<td align="center" class='rn'>9.09</td>
+		<td align="center" class='rn'>-0.200</td>
+		<td align="center" class='rn'>9.86</td>
+		<td align="center" class='rn'>10.64</td>
+		<td align="center" class='rn'>8.89</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2351.html">Vispa - Visp</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:00</b></td>
+		<td align="center" class='rb'>6.70</td>
+		<td align="center" class='rn'>4.76</td>
+		<td align="center" class='rn'>1.940</td>
+		<td align="center" class='rn'>7.28</td>
+		<td align="center" class='rn'>9.23</td>
+		<td align="center" class='rn'>4.77</td>
+	</tr>
+	<tr class='stationsListeBody2'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2033.html">Vorderrhein - Ilanz</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>4.70</td>
+		<td align="center" class='rn'>4.58</td>
+		<td align="center" class='rn'>0.120</td>
+		<td align="center" class='rn'>5.44</td>
+		<td align="center" class='rn'>7.72</td>
+		<td align="center" class='rn'>4.58</td>
+	</tr>
+	<tr class='stationsListeBody'>
+		<td align="left"><a href="http://www.hydrodaten.admin.ch/de/2500.html">Worble - Ittigen</a></td>
+		<td align="center" class='cs'>[°C]</td>
+		<td align="center" class='cs'>27.04.2012&nbsp;<b>08:10</b></td>
+		<td align="center" class='rb'>9.30</td>
+		<td align="center" class='rn'>8.24</td>
+		<td align="center" class='rn'>1.060</td>
+		<td align="center" class='rn'>11.32</td>
+		<td align="center" class='rn'>13.60</td>
+		<td align="center" class='rn'>8.24</td>
+	</tr>
+</table>
+<p align="right">Powered by <b>HydroPy</b></p>
+
+		<p align="right">
+			<a href="http://validator.w3.org/check?uri=referer"><img
+				src="http://www.w3.org/Icons/valid-xhtml10"
+				alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+		</p><br />
+</div>
+</body>
+</html>
